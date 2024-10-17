@@ -1,10 +1,13 @@
 import dynamic from "next/dynamic";
-import { Footer } from "@/components/Footer"; 
+import { Footer } from "@/components/Footer";
 
 const HeroSection = dynamic(() => import("../components/HeroSection"));
 const ContentSection = dynamic(() => import("@/components/ContentSection"));
 const StatsSection = dynamic(() => import("@/components/StatsSection"));
 const FeaturesSection = dynamic(() => import("@/components/FeaturesSection"));
+const CradShow = dynamic(() => import("@/components/CradShow"));
+const StatisticsBar = dynamic(() => import("@/components/StatisticsBar"));
+const GraduateShowcase = dynamic(() => import("@/components/GraduateShowcase"));
 const InsightsSection = dynamic(() => import("@/components/InsightsSection"));
 
 export default function Home() {
@@ -15,6 +18,9 @@ export default function Home() {
         <ContentSection />
         <StatsSection />
         <FeaturesSection />
+        <StatisticsBar />
+        <CradShow />
+        <GraduateShowcase />
         <InsightsSection />
       </main>
       <Footer />
