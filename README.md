@@ -1,40 +1,116 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Graduate Web Application Landing Page
+
+This project is a dynamic landing page designed specifically to showcase graduate programs and services. It is built with **Next.js**, **TypeScript**, and **Tailwind CSS** for a fast, modern, and responsive user experience. Additionally, **Framer Motion** is used for smooth scrolling animations and dynamic interactions, making the interface more engaging.
+
+## Table of Contents
+
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Live Demo](#live-demo)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Technologies Used
+
+This project leverages the following technologies:
+
+- [Next.js](https://nextjs.org/) - A powerful React framework with server-side rendering and static site generation.
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript to ensure safer code.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
+- [Framer Motion](https://www.framer.com/docs/motion/) - A library for declarative animations and interactions.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of this project running on your machine, follow the instructions below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Node.js](https://nodejs.org/) (>= 14.x)
+- npm or yarn (package manager)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AnanthuSpace/ms-grad.nextjs.git
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Navigate into the project directory:
+   ```bash
+   cd graduate-web-app
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+After installing the dependencies, you can start the development server to see the application in action.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   or
+   ```bash
+   yarn dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Responsive Design**: The landing page is optimized for both desktop and mobile devices.
+- **Smooth Animations**: Framer Motion provides a visually engaging experience with scrolling animations.
+- **Type Safety**: TypeScript ensures that the codebase is more robust and easier to maintain.
+- **Tailwind CSS for Styling**: Fast and efficient styling using Tailwind's utility classes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Live Demo
+
+You can view the live version of the project here: [Graduate Web Application Live Demo](https://your-live-demo-link.com)
+
+## Contributing
+
+Contributions to this project are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make the necessary changes and commit them:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push your changes to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a pull request, and we will review your changes!
+
+## License
+
+This project is licensed under the **MIT License**. You can view the full license in the [LICENSE](./LICENSE) file.
+
+## Acknowledgements
+
+Special thanks to the following technologies and resources:
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/docs/motion/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+---
+
+Feel free to replace `"https://your-live-demo-link.com"` with the actual live link for your project.
