@@ -1,4 +1,4 @@
-import { useState } from "react"; 
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,8 +11,6 @@ export default function Navbar() {
         <div className="flex-shrink-0">
           <Image src="/Logo.png" alt="DEMO" width={100} height={40} priority />
         </div>
-
-        {/* Hamburger icon for mobile view */}
         <div className="md:hidden flex items-center">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -24,10 +22,14 @@ export default function Navbar() {
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="black"
+                stroke="white" 
                 strokeWidth={2}
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             ) : (
               <svg
@@ -35,39 +37,41 @@ export default function Navbar() {
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="black"
+                stroke="white" 
                 strokeWidth={2}
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
               </svg>
             )}
           </button>
         </div>
-
-        {/* Navigation links */}
         <nav className="hidden md:flex flex-grow justify-center space-x-8 text-white">
-          <Link href="#" className="text-white text-sm md:text-base hover:text-gray-300">
+          <Link href="#" className="hover:text-gray-300">
             About Us
           </Link>
-          <Link href="#" className="text-white text-sm md:text-base hover:text-gray-300">
+          <Link href="#" className="hover:text-gray-300">
             How We Help
           </Link>
-          <Link href="#" className="text-white text-sm md:text-base hover:text-gray-300">
+          <Link href="#" className="hover:text-gray-300">
             Pricing
           </Link>
-          <Link href="#" className="text-white text-sm md:text-base hover:text-gray-300">
+          <Link href="#" className="hover:text-gray-300">
             Portfolios
           </Link>
-          <Link href="#" className="text-white text-sm md:text-base hover:text-gray-300">
+          <Link href="#" className="hover:text-gray-300">
             Testimonials
           </Link>
-          <Link href="#" className="text-white text-sm md:text-base hover:text-gray-300">
+          <Link href="#" className="hover:text-gray-300">
             Insights
           </Link>
         </nav>
 
         <div className="hidden md:flex flex-shrink-0">
-          <button className="bg-white text-black-600 border px-4 py-2 rounded-md hover:bg-gray-100 transition duration-300">
+          <button className="bg-white text-black border px-4 py-2 rounded-md hover:bg-gray-100 transition duration-300">
             Contact Us
           </button>
         </div>
@@ -85,16 +89,22 @@ export default function Navbar() {
         >
           <div className="flex items-center justify-between p-4 border-b border-gray-700">
             <h2 className="text-lg font-bold">Menu</h2>
-            <button onClick={() => setIsOpen(false)} className="text-white">
+            <button
+              onClick={() => setIsOpen(false)}
+              className="bg-transparent text-white"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
-                fill="none"
                 viewBox="0 0 24 24"
-                stroke="black"
+                stroke="white" 
                 strokeWidth={2}
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
           </div>

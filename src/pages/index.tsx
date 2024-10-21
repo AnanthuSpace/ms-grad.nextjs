@@ -9,6 +9,7 @@ const CradShow = dynamic(() => import("@/components/CradShow"));
 const StatisticsBar = dynamic(() => import("@/components/StatisticsBar"));
 const GraduateShowcase = dynamic(() => import("@/components/GraduateShowcase"));
 const InsightsSection = dynamic(() => import("@/components/InsightsSection"));
+const CareerSection = dynamic(() => import("@/components/CareerSection"));
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <CradShow />
         <GraduateShowcase />
         <InsightsSection />
+        <CareerSection />
       </main>
       <Footer />
     </div>
