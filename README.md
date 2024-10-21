@@ -11,7 +11,6 @@ This project is a dynamic landing page designed specifically to showcase graduat
 - [Features](#features)
 - [Live Demo](#live-demo)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Technologies Used
@@ -77,7 +76,7 @@ After installing the dependencies, you can start the development server to see t
 
 ## Live Demo
 
-You can view the live version of the project here: [Graduate Web Application Live Demo](https://your-live-demo-link.com)
+You can view the live version of the project here: [Graduate Web Application Live Demo](https://ms-grad-nextjs.vercel.app/)
 
 ## Contributing
 
@@ -98,10 +97,6 @@ Contributions to this project are welcome! Please follow these steps:
    ```
 5. Open a pull request, and we will review your changes!
 
-## License
-
-This project is licensed under the **MIT License**. You can view the full license in the [LICENSE](./LICENSE) file.
-
 ## Acknowledgements
 
 Special thanks to the following technologies and resources:
@@ -110,7 +105,3 @@ Special thanks to the following technologies and resources:
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/docs/motion/)
 - [TypeScript](https://www.typescriptlang.org/)
-
----
-
-Feel free to replace `"https://your-live-demo-link.com"` with the actual live link for your project.

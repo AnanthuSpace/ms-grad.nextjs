@@ -6,16 +6,13 @@ interface RevealProps {
 }
 
 const Reveal: React.FC<RevealProps> = ({ children }) => {
-  // Use a ref for the div element
+
   const ref = useRef<HTMLDivElement | null>(null);
-  
-  // `useInView` returns a boolean indicating if the element is in the viewport
+
   const isInView: boolean = useInView(ref, { once: true });
-  
-  // `useAnimation` controls the animation
+ 
   const mainControls: AnimationControls = useAnimation();
   
-  // Side effect to trigger the animation when the element is in view
   useEffect(() => {
     if (isInView) {
       mainControls.start("visible");
